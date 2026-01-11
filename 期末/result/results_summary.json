@@ -1,0 +1,36 @@
+{
+  "Data_Info": {
+    "Total_Samples": 355,
+    "Sequence_Length": 10,
+    "Feature_Dim": 8
+  },
+  "Model_Results": {
+    "LSTM": {
+      "Performance": {
+        "MAE": 0.32090359926223755,
+        "RMSE": 0.4102444326881946,
+        "F1_Score": 0.0,
+        "AUC": 0.3606060606060606
+      },
+      "Training_Params": {
+        "hidden_size": 32,
+        "num_layers": 2,
+        "dropout": 0.3
+      }
+    },
+    "Transformer": {
+      "Performance": {
+        "MAE": 0.3197486400604248,
+        "RMSE": 0.4143103451582869,
+        "F1_Score": 0.0,
+        "AUC": 0.20606060606060606
+      },
+      "Training_Params": {
+        "hidden_size": 32,
+        "num_heads": 2,
+        "num_layers": 2,
+        "dropout": 0.3
+      }
+    }
+  }
+}
